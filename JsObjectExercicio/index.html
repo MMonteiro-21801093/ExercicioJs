@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio Js Object</title>
+    <script src="index.js">  type="application/javascript" </script>
+
+</head>
+<style>
+    .btn-group button {
+  background-color: #4CAF50; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 200px; /* Set a width if needed */
+  display: block; /* Make the buttons appear below each other */
+  margin-top: 10px;
+}
+.btn-group button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
+</style>
+<body>
+    <div class="btn-group">
+        <button onclick="exercicio1()">Exercicio 1</button> 
+        <button onclick="exercicio2()">Exercicio 2</button> 
+        <button onclick="exercicio3()">Exercicio 3</button> 
+        <button onclick="exercicio4()">Exercicio 4</button> 
+        <button onclick="exercicio5()">Exercicio 5</button> 
+        <button onclick="exercicio6()">Exercicio 6</button> 
+        <button onclick="exercicio7()">Exercicio 7</button> 
+        <button onclick="exercicio8(document.getElementById('raio').value)">Exercicio 8</button> 
+        <label for="raio">Raio do Circulo:</label><br>
+        <input type="number" id="raio" name="raio"><br>
+        <button onclick="ultimosQuatroExercicios()">Exercicio 9/10/11/12</button>
+      </div> 
+</body>
+</html>
